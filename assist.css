@@ -1,0 +1,323 @@
+
+
+
+
+/*....................................................................................................*/
+/*....................................................................................................*/
+/*....................................................................................................*/                                      
+                                                                                                /*SECTION 1*/
+/*top intro section*/
+#name{
+    font-size: 50px;
+}
+#service{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.fade-in-text {
+    font-family: Arial;
+    font-size: 40px;
+    color: darkblue;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+
+			
+
+  }
+  .fade-in-text:hover{
+    font-size: 50px;
+  }
+  
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+/*top intro section end*/
+
+/*...................................................................................................*/
+/*...................................................................................................*/
+/*.....................................................................................................*/
+                                                                                            /*SECTION 1 END*/
+
+
+
+
+
+
+
+
+
+
+/*.....................................................................................................*/
+/*.....................................................................................................*/
+/*.....................................................................................................*/                                                                                          
+                                                                                        /*SECTION 2 START*/
+
+
+/*why hire us start 2*/
+#Why-Us{
+    text-align: center;
+    color:#444;
+}
+
+
+/*/*why hire us end*/
+
+/*.....................................................................................................*/
+/*.....................................................................................................*/
+/*.....................................................................................................*/
+                                                                                            /*SECTION 2 END*/
+
+
+
+
+
+
+
+
+
+
+
+/*...................................................................................................*/
+/*...................................................................................................*/
+/*.....................................................................................................*/
+                                                        /*SECTION 3 */
+#jobs{
+    border-color:darkblue ;
+    border-width:3px;
+    border-style:solid;
+}                                                     
+#work{
+    background-color: #fff;
+}
+.work{
+    color: darkblue;
+
+}
+
+
+
+
+.work-quote{
+	color: #444;
+    font-size: 24px;
+
+}
+.location{
+	color: #444;
+    font-weight: bold;
+	text-align: left;
+}
+
+.list{
+  list-style: decimal;
+  text-align: left;
+  font-weight: bold;
+  color: #444;
+  }
+
+ /*...................................................................................................*/
+  /*...................................................................................................*/
+  /*.....................................................................................................*/
+                                                    /*SECTION 3 END*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*...................................................................................................*/
+/*...................................................................................................*/
+/*.....................................................................................................*/
+                                                                                    /* TESTIMONIALS SECTION 4 START*/
+.comment{
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #fff;
+    text-shadow: none;
+    font-weight: 400;
+}
+
+.name-testimonial{
+    letter-spacing: 3px;
+    color: #fff;
+    text-shadow: none;
+}
+
+			.foot{
+				margin-left:auto;
+				margin-right:auto;
+			}
+
+
+#faq{
+	text-align: center;
+	width: 100%;
+}
+/*...................................................................................................*/
+/*...................................................................................................*/
+/*.....................................................................................................*/
+                                                                                    /*SECTION 4 END*/
+
+
+
+
+
+
+
+
+
+
+
+/*...................................................................................................*/
+/*...................................................................................................*/
+/*.....................................................................................................*/
+                                                                                    /* FAQ SECTION 5 START*/
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  /*background-color: #eee;*/
+  background-color: darkblue;
+  color: #444;
+  cursor: pointer;
+  padding: 12px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: 2px;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  /*background-color: #ccc;*/
+  background-color: rgb(2, 2, 91);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 12px;
+  display: none;
+  overflow: hidden;
+  color: #444;
+}
+
+/*...................................................................................................*/
+/*...................................................................................................*/
+/*.....................................................................................................*/
+                                                                                    /* FAQ SECTION 5 end*/
+
+
+
+
+
+/*...................................................................................................*/
+/*...................................................................................................*/
+/*.....................................................................................................*/
+                                                                            /*NEWSLETTER SECTION 6 END*/
+
+
+
+/*media queries */
+
+/*nav*/
+@media screen and (max-width: 600px) {
+     
+    .nav{
+        font-size: 12px;
+    }
+    #nav a {
+			-moz-transition: background-color .2s ease-in-out;
+			-webkit-transition: background-color .2s ease-in-out;
+			-ms-transition: background-color .2s ease-in-out;
+			transition: background-color .2s ease-in-out;
+			position: relative;
+			display: block;
+			/*color: #fff;*/
+			
+			text-decoration: none;
+			outline: 0;
+			font-weight: 800;
+			border-radius: 8px;
+			color: black;
+			height: 2.5em;
+			line-height: 2.5em;
+			padding: 0 1.25em;
+		}
+    #nav a:hover {
+      color: #fff !important;
+      /*background: #383838;*/
+      background-color: darkblue;
+    }
+
+    #nav a.active {
+      /*background: #484848;*/
+      background: darkblue;
+    }
+	.parent{
+		text-align: center;
+	}
+   .list{
+	display: inline-block; 
+	text-align: left;
+  }
+/*nav*/
+
+/*section 1*/
+#name{
+    font-size: 35px;
+}
+#service{
+    font-size: 28px;
+}
+.fade-in-text{
+    font-size: 28px;
+}
+.fade-in-text:hover{
+    font-size: 40px;
+}
+#reason{
+    font-size: 14px;
+}
+.location{
+    text-align:center;
+
+}
+.comment{
+  font-weight: 600;
+}
+
+}
